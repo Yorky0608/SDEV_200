@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
-public class convert_hexa_to_deci {
+public class hex2dec {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         String hexa = input.nextLine();
 
-        int deci = hex2dec(hexa);
+        int deci = hex2deca(hexa);
 
         System.out.print(deci);
     }
 
-    public static int hex2dec(String hex) {
+    public static int hex2deca(String hex) {
         int decicaml_value = 0;
         for (int i = 0; i < hex.length(); i++) {
             decicaml_value = i;
