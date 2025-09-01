@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class hex2dec {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -9,6 +10,8 @@ public class hex2dec {
         int deci = hex2deca(hexa);
 
         System.out.print(deci);
+
+        input.close();
     }
 
     public static int hex2deca(String hex) {
