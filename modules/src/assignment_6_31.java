@@ -18,6 +18,7 @@ public class assignment_6_31 {
             System.out.println(credit_card + " is invalid");
         }
 
+        input.close();
     }
 
     /** Return true if the card number is valid */
@@ -31,10 +32,13 @@ public class assignment_6_31 {
   /** Get the result from Step 2 */
   public static int sumOfDoubleEvenPlace(long number) {
     int sum = 0;
+    
     String num = Long.toString(number);
+
     for (int i = num.length() - 2; i >= 0; i -= 2) {
       sum += getDigit(Integer.parseInt(num.charAt(i) + "") * 2);
     }
+
     return sum;
   }
 
@@ -50,10 +54,13 @@ public class assignment_6_31 {
   /** Return sum of odd-place digits in number */
   public static int sumOfOddPlace(long number) {
     int sum = 0;
+
     String num = Long.toString(number);
+
     for (int i = num.length() - 1; i >= 0; i -= 2) {
       sum += Integer.parseInt(num.charAt(i) + "");
     }
+
     return sum;
   }
 
@@ -74,6 +81,8 @@ public class assignment_6_31 {
       String num = Long.toString(number);
       return Long.parseLong(num.substring(0, k));
     }
-    return number;
+    else {
+        return number;
+    }
   }
 }
