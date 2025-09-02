@@ -4,9 +4,9 @@ public class assignment_9_9 {
 		RegularPolygon poly2 = new RegularPolygon(6, 4);
 		RegularPolygon poly3 = new RegularPolygon(10, 4, 5.6, 7.8);
 
-		System.out.printf("Polygon 1: Perimeter = %.2f, Area = %.2f\n", poly1.getPerimeter(), poly1.getArea());
-		System.out.printf("Polygon 2: Perimeter = %.2f, Area = %.2f\n", poly2.getPerimeter(), poly2.getArea());
-		System.out.printf("Polygon 3: Perimeter = %.2f, Area = %.2f\n", poly3.getPerimeter(), poly3.getArea());
+		System.out.printf("Polygon 1: Perimeter = %.2f, Area = %f\n", poly1.getPerimeter(), poly1.getArea());
+		System.out.printf("Polygon 2: Perimeter = %.2f, Area = %f\n", poly2.getPerimeter(), poly2.getArea());
+		System.out.printf("Polygon 3: Perimeter = %.2f, Area = %f\n", poly3.getPerimeter(), poly3.getArea());
 	}
 }
 
