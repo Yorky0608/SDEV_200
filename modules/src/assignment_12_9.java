@@ -5,10 +5,12 @@ public class assignment_12_9 {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter a binary number: ");
 		String binary = input.nextLine();
-
-        int decimal = bin2Dec(binary);
-		System.out.println("Decimal equivalent: " + decimal);
-		
+		try {
+			int decimal = bin2Dec(binary);
+			System.out.println("Decimal equivalent: " + decimal);
+		} catch (BinaryFormatException e) {
+			System.out.println("Not a binary number");
+		}
 		input.close();
 	}
 
