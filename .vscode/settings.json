@@ -1,3 +1,17 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\caleb\\Downloads\\openjfx-25_windows-x64_bin-sdk\\javafx-sdk-25\\lib\\javafx.base.jar",
+        "c:\\Users\\caleb\\Downloads\\openjfx-25_windows-x64_bin-sdk\\javafx-sdk-25\\lib\\javafx.controls.jar",
+        "c:\\Users\\caleb\\Downloads\\openjfx-25_windows-x64_bin-sdk\\javafx-sdk-25\\lib\\javafx.fxml.jar",
+        "c:\\Users\\caleb\\Downloads\\openjfx-25_windows-x64_bin-sdk\\javafx-sdk-25\\lib\\javafx.graphics.jar",
+        "c:\\Users\\caleb\\Downloads\\openjfx-25_windows-x64_bin-sdk\\javafx-sdk-25\\lib\\javafx.media.jar",
+        "c:\\Users\\caleb\\Downloads\\openjfx-25_windows-x64_bin-sdk\\javafx-sdk-25\\lib\\javafx.swing.jar",
+        "c:\\Users\\caleb\\Downloads\\openjfx-25_windows-x64_bin-sdk\\javafx-sdk-25\\lib\\javafx.web.jar",
+        "c:\\Users\\caleb\\Downloads\\openjfx-25_windows-x64_bin-sdk\\javafx-sdk-25\\lib\\javafx-swt.jar",
+        "c:\\Users\\caleb\\Downloads\\openjfx-25_windows-x64_bin-sdk\\javafx-sdk-25\\lib\\jdk.jsobject.jar",
+        "c:\\Users\\caleb\\Downloads\\openjfx-25_windows-x64_bin-sdk\\javafx-sdk-25\\lib\\jfx.incubator.input.jar",
+        "c:\\Users\\caleb\\Downloads\\openjfx-25_windows-x64_bin-sdk\\javafx-sdk-25\\lib\\jfx.incubator.richtext.jar"
+    ]
 }
