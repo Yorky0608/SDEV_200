@@ -1,0 +1,57 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Clean and Compile (Java 21)",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-Command",
+                "$env:JAVA_HOME='$env:USERPROFILE\\.jdk\\jdk-21.0.4+7'; $env:PATH='$env:JAVA_HOME\\bin;$env:USERPROFILE\\.maven\\apache-maven-3.9.9\\bin;$env:PATH'; mvn clean compile"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Package (Java 21)",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-Command",
+                "$env:JAVA_HOME='$env:USERPROFILE\\.jdk\\jdk-21.0.4+7'; $env:PATH='$env:JAVA_HOME\\bin;$env:USERPROFILE\\.maven\\apache-maven-3.9.9\\bin;$env:PATH'; mvn package"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run JavaFX App (Java 21)",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-Command",
+                "$env:JAVA_HOME='$env:USERPROFILE\\.jdk\\jdk-21.0.4+7'; $env:PATH='$env:JAVA_HOME\\bin;$env:USERPROFILE\\.maven\\apache-maven-3.9.9\\bin;$env:PATH'; mvn javafx:run"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": [],
+            "isBackground": false
+        }
+    ]
+}
