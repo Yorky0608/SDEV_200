@@ -8,7 +8,7 @@ import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
 
 /**
- * Assignment 15.7: Change Color Using a Mouse
+ *  Assignment 15.7: Change Color Using a Mouse
  * This program displays a circle that changes color when the mouse is pressed/released.
  * - Black when mouse button is pressed
  * - White when mouse button is released
@@ -49,3 +49,4 @@ public class asignment_15_7 extends Application {
         launch(args);
     }
 }
+

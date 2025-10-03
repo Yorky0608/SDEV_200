@@ -51,7 +51,7 @@ public class assignment_14_1 extends Application {
     }
 
     /**
-     * Creates an ImageView with the specified image path, or a placeholder if image not found
+     *  Creates an ImageView with the specified image path, or a placeholder if image not found
      */
     private StackPane createImageOrPlaceholder(String imagePath, String placeholderText, 
                                              double width, double height, Color placeholderColor) {

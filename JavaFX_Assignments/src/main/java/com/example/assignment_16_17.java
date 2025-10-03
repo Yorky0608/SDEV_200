@@ -123,7 +123,7 @@ public class assignment_16_17 extends Application {
     }
     
     /**
-     * Updates the text color based on current slider values
+     *  Updates the text color based on current slider values
      */
     private void updateTextColor() {
         double red = redSlider.getValue() / 255.0;     // Convert to 0-1 range
@@ -147,3 +147,4 @@ public class assignment_16_17 extends Application {
         launch(args);
     }
 }
+
